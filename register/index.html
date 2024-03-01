@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav id="bar-nav">
+            <ul id="menu-bar">
+                <li class="items-menu"><a class="links-item" href="../index.html">Home</a>
+                </li>
+                <li class="items-menu"><a id="btn-login" class="links-item" href="../login/index.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="contain-bg">
+            <img src="../image/healthy_lifestyle.svg" alt="">
+        </div>
+        <div id="contain-form">
+            <div id="title-container">
+                <h1 id="title">Registrar</h1>
+            </div>
+            <form id="form">
+                <div id="container">
+                    <div class="split-container">
+                        <label class="label-all" for="email">Correo</label>
+                        <input id="email" class="input-all" autocomplete="on" type="text">
+                    </div>
+                    <div class="split-container">
+                        <label class="label-all" for="full-name">Nombre Completo</label>
+                        <input id="full-name" class="input-all" autocomplete="on" type="text">
+                    </div>
+                    <div class="split-container">
+                        <label class="label-all" for="password">Contraseña</label>
+                        <input id="password" class="input-all" autocomplete="on" type="text">
+                    </div>
+                    <div class="split-container">
+                        <label class="label-all" for="confirm-password">
+                            <ion-icon id="icon-check" name="checkmark-circle-outline"></ion-icon>
+                            Contraseña</label>
+                        <input id="confirm-password" class="input-all" autocomplete="on" type="text">
+                    </div>
+                    <div class="split-container">
+                        <a href="../login/index.html" id="btn-signup">Registrar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
